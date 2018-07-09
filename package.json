@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "ace-css": "1.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "elm-webpack-loader": "^4.5.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "font-awesome": "4",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.15.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "build": "webpack",
+    "client": "webpack-dev-server --port 3000"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
+  },
+  "name": "kidosho",
+  "version": "1.0.0",
+  "description": "Mula FrontEnd",
+  "main": "index.js",
+  "author": "Zacck Osiemo <coderv63@gmail.com> (http://zacck.github.io)",
+  "license": "MIT"
+}
